@@ -1,14 +1,10 @@
 def reverse_word(word):
-    return word[::-1]  # Returns the reversed word
+    return word[::-1]
 
 def scramble_note(note):
-    # Split the note into words
     words = note.split()
-    # Reverse the order of words
-    reversed_words = words[::-1]
-    # Reverse each word
+    reversed_words = reversed(words)  # Reversed the order of words
     scrambled_words = [reverse_word(word) for word in reversed_words]
-    # Join the scrambled words back into a string
     scrambled_note = ' '.join(scrambled_words)
     return scrambled_note
 
