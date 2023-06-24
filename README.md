@@ -1,5 +1,9 @@
 # Scale AI - Challenge
 
+<p align="center">
+  <img src="https://github.com/g3rley/scaleai_challenge/assets/96620547/e42d376a-7f3e-4c2e-a179-a59daf016f0d" alt="image">
+</p>
+
 ## Introduction
 
 This is a solution to the Scale AI challenge. The solution is written in Python 3.7.3. The solution is divided into two
